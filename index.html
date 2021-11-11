@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+
+    <div class="area">
+        <ul class="circles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <button class="btn" id="home" onclick="window.location.href = 'index.html';"><i class="fa fa-home"></i> </button>
+    <div>
+
+        <form id="Karavadjo" class="Artist obj" style="background-size: 150% ;background-image: url(img/Karavadjo.jpg); ">
+            <a onclick="animation('Kar')"><img class="info" src="img/Info_Karavadjo.png" /></a>
+        </form>
+        <form id="Rembrand" class="Artist" style=" background-size: 150% ;background-image: url(img/Rembrand.jpg);">
+            <a onclick="animation('rem')"><img class="info" src="img/info_Rembrand.png" /></a>
+        </form>
+        <form id="David" class="Artist" style="background-size: 150%; background-image: url(img/David.jpg);">
+            <a onclick="animation('Dav')"> <img class="info" src="img/info_David.png" /></a>
+        </form>
+        <form id="Franciso" class="Artist" style="background-size: 150%; background-image: url(img/Francisco.jpg);">
+            <a onclick="animation('van')"><img class="info" src="img/info_Franciso.png" /></a>
+        </form>
+    </div>
+    <div id="biography_kar" class="text_Info">
+        <span>
+            <h1 style="position:relative;top:-20px;">Микиланджело да Караваджо</h1>
+
+            &nbsp«Существует некий Микеланджело да Караваджо, который создает поразительные вещи в Риме…
+            Этот Караваджо сумел вопреки всем трудностям завоевать своими работами громкое имя и почет…
+            Однако, вместо того чтобы постоянно совершенствовать
+            свое искусство… он, поработав две недели, бросает работу и шляется со своей рапирой в сопровождении
+            мальчика-слуги, переходя с одного теннисного корта на другой и всюду затевая ссоры и драки, Это не имеет ничего общего с искусством».<br />
+            <p>Карел ван Мандер</p>
+        </span>
+    </div>
+    <div id="biography_rem" class="text_Info">
+        <span>
+            <h1 style="position:relative;top:-20px;">Рембрандт Харменс ван Рейн</h1>
+
+            &nbsp«Не теряйте напрасно времени, копаясь в мертвой теории.
+            Вглядывайтесь в природу. Обращайте внимание на все, что окружает вас.
+            Смотрите на мужчину и женщину. Замечайте, как они двигаются, как ведут
+            себя в обыденной жизни. Внимательно наблюдайте, что делают их руки и как
+            смотрят глаза. Запечатлевайте в своей памяти, как люди плачут от счастья или
+            смеются, когда им хочется плакать. Динамика естественного выражения чувств - это для художника все.
+            ».<br />
+            <p>Ре́мбрандт</p>
+        </span>
+    </div>
+    <div id="biography_dav" class="text_Info">
+        <span>
+            <h1 style="position:relative;top:-20px;">Жак-Луи Давид</h1>
+
+            &nbsp Забавно, что искусство и идеалы Давида легко ассимилировались в разную конъюнктуру. Апологет французской революции, её глашатый, человек который так яростоно защищавший радикальные идеи и желавший смерти их противникам, прекрасно справлялся с изображением коронацией Наполеона, с его фигурой на лошадях и портретами дворян.<br />
+            &nbsp Жак-Луи, как уже было упомянуто, был одним из ведущих людей в французской революции, событии которое так сильно повлияло на нашу культуру. "Свобода, равенство, братство", эти слова знакомы многим и за эти слова, за идеи морального и юридического равенства человека перед другими людьми, мы обязаны Французской революции, произошедшей чуть более двухсот лет назад.
+        </span>
+    </div>
+    <div id="biography_van" class="text_Info">
+        <span>
+            <h1 style="position:relative;top:-20px;">Винсент Виллем Ван Гог </h1>
+            &nbsp&nbsp Он мог быть победителем в рамках ограниченной человеческой жизни. Он мог быть примерным семьянином, идеальным сыном и выбрать жизнь радостную, но бесцветную. Винсент Виллем Ван Гог выбрал не выбирать жизнь, он выбрал бессмертие.
+             Жизнь довела Ван гога до безумия, низвергла его в бездну отчаяния и там, на самом дне, вложила ему в руку револьвер.
+            <br />&nbsp&nbsp"Повторяю, если хочешь что-то делать, не бойся сделать что-нибудь неправильно, не опасайся, что совершишь ошибки. Многие считают, что они станут хорошими, если не будут делать ничего плохого. Это ложь"
+            <br /><p>Ван Гог</p>
+        </span>
+    </div>
+
+    <iframe id="frame_kar" src="Kar\Karavadjo.html"></iframe>
+    <iframe id="frame_rem" style="height:5000px" src="Rem\Rembrand.html"></iframe>
+    <iframe id="frame_dav" style="height:4500px" src="David\David.html"></iframe>
+    <iframe id="frame_van" style="height: 6900px" src="Vangog\Vangog.html"></iframe>
+    <script src="Script1.js"></script>
+</body>
+</html>
